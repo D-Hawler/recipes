@@ -1,0 +1,56 @@
+section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article {
+    flex: 0 1 50%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-group {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 50%;
+    gap: 10px;
+}
+
+aside {
+    background-color: rgba(255, 235, 59, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    padding: 20px 40px;
+
+    flex: 0 1 20%;
+}
+aside li {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.aside-group {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    flex: 0 1 40%;
+
+    margin-right: 0%;
+}
+
+.ingredients-size{
+    width: 50%;
+    height: 100%;
+}
+
+.tip {
+    margin-left: -20px;
+}
+ul, ol {
+    padding-left: 20px;
+}
